@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
+
+`This project uses nglibdemo which itself depend on angular material etc. Hence all these dependency needs to be part of this package.json`
+
+>npm i nglibdeal --save
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
