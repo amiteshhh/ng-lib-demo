@@ -25,4 +25,4 @@ export class AppModule {
     var libConfigs = [DealModule.configEnv];//keep adding other modules
     libConfigs.forEach(libConfig => libConfig(environment.envCode))
   }
-}
+} // commit 2 in master
