@@ -6,7 +6,7 @@ import { DealModule } from 'nglibdeal';
 
 import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
-
+// random commit in test 1 branch
 @NgModule({
   declarations: [
     AppComponent
