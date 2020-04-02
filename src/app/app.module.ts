@@ -6,7 +6,7 @@ import { DealModule } from 'nglibdeal';
 
 import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
-// random commit in test 1 branch
+
 @NgModule({
   declarations: [
     AppComponent
@@ -25,4 +25,4 @@ export class AppModule {
     var libConfigs = [DealModule.configEnv];//keep adding other modules
     libConfigs.forEach(libConfig => libConfig(environment.envCode))
   }
-}
+} // commit 2 in master
